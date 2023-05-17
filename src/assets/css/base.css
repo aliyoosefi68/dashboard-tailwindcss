@@ -1,0 +1,42 @@
+@layer base {
+  html {
+    @apply font-persian bg-primary-lighter text-sm font-normal text-slate-800 text-right;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold mb-4;
+  }
+  h1 {
+    @apply text-5xl;
+  }
+  h2 {
+    @apply text-4xl;
+  }
+  h3 {
+    @apply text-3xl;
+  }
+  h4 {
+    @apply text-2xl;
+  }
+  h5 {
+    @apply text-xl;
+  }
+  h6 {
+    @apply text-lg;
+  }
+  a {
+    @apply text-primary-gray hover:text-primary-red transition-colors duration-200;
+  }
+}
+i {
+  @apply flex items-center justify-center text-[1.35rem];
+}
+input,
+textarea,
+select {
+  @apply outline-none bg-transparent;
+}

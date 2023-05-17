@@ -1,0 +1,17 @@
+@layer components {
+  .active-link {
+    @apply relative after:absolute after:inset-y-0 after:-right-8 after:w-1.5 after:bg-primary-red after:rounded-full;
+  }
+
+  .active-link i {
+    @apply text-primary-red;
+  }
+
+  .active-link span {
+    @apply text-slate-700;
+  }
+
+  .avatar {
+    @apply rounded-full w-14 mx-auto aspect-square shadow-md;
+  }
+}

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../dist/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <title>netflix</title>
+  </head>
+  <body>
+    <!--right sidebar start-->
+    <div
+      id="sidbar-right"
+      class="fixed grid content-between top-0 right-0 h-screen w-full max-w-xxs p-8 border-l-2 border-primary-light"
+    >
+      <div>
+        <div>
+          <img src="./assets/images/logo.png" />
+        </div>
+        <nav class="pt-6 grid gap-8">
+          <div>
+            <h6 class="text-slate-400 mb-6 text-sm">منو</h6>
+            <ul class="grid gap-6">
+              <li class="flex active-link">
+                <a
+                  href="#"
+                  class="flex items-center space-x-3 space-x-reverse py-1.5"
+                >
+                  <i class="fi fi-rr-navigation"></i>
+                  <span>جستوجو</span>
+                </a>
+              </li>
+              <li class="flex">
+                <a
+                  href="#"
+                  class="flex items-center space-x-3 space-x-reverse py-1.5"
+                >
+                  <i class="fi fi-rr-heart"></i>
+                  <span>لیست تماشا</span>
+                </a>
+              </li>
+              <li class="flex">
+                <a
+                  href="#"
+                  class="flex items-center space-x-3 space-x-reverse py-1.5"
+                >
+                  <i class="fi fi-rr-calendar"></i>
+                  <span>به زودی</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!--second menu section-->
+          <div>
+            <h6 class="text-slate-400 mb-6 text-sm">عمومی</h6>
+            <ul class="grid gap-6">
+              <li class="flex">
+                <a
+                  href="#"
+                  class="flex items-center space-x-3 space-x-reverse py-1.5"
+                >
+                  <i class="fi fi-rr-settings"></i>
+                  <span>تنظیمات</span>
+                </a>
+              </li>
+              <li class="flex">
+                <a
+                  href="#"
+                  class="flex items-center space-x-3 space-x-reverse py-1.5"
+                >
+                  <i class="fi fi-rr-exit"></i>
+                  <span>خروج</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div
+        class="grid gap-4 text-center bg-primary-gray/25 p-6 w-full rounded-xl"
+      >
+        <div>
+          <h6 class="text-base mb-1.5">جشنواره فروش</h6>
+          <p class="text-xs text-primary-gray">
+            جوایز نقدی و غیر نقدی برای اولین واریزی!
+          </p>
+        </div>
+        <button class="btn btn-gray">ورود به چالش</button>
+      </div>
+    </div>
+    <!--right sidebar end-->
+    <!--header start-->
+    <header
+      id="header"
+      class="flex items-center justify-between m-8 py-4 px-content"
+    >
+      <div class="flex grow">
+        <div class="flex items-center gap-x-4">
+          <a href="#" class="">
+            <i class="fi fi-rr-angle-right text-sm"></i>
+          </a>
+          <a href="#" class="">
+            <i class="fi fi-rr-angle-left text-sm text-slate-700"></i>
+          </a>
+        </div>
+        <div
+          class="flex items-center w-full max-w-sm border border-primary-gray rounded-full px-4 ms-4"
+        >
+          <i class="fi fi-rr-search text-primary-gray text-base"></i>
+          <input type="text" placeholder="جستوجو ..." class="px-4 py-3 grow" />
+          <i class="fi fi-rr-microphone text-primary-gray text-base"></i>
+        </div>
+      </div>
+      <div class="flex space-x-4 space-x-reverse items-center">
+        <a href="#" class="relative">
+          <span class="absolute flex h-3 w-3 -top-1 -right-1">
+            <span
+              class="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary-red opacity-75"
+            ></span>
+            <span
+              class="relative inline-flex rounded-full h-3 w-3 bg-primary-red"
+            ></span>
+          </span>
+          <i class="fi fi-rr-comment"></i>
+        </a>
+        <a href="#" class="relative">
+          <span class="absolute flex h-3 w-3 -top-1 -right-1">
+            <span
+              class="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary-red opacity-75"
+            ></span>
+            <span
+              class="relative inline-flex rounded-full h-3 w-3 bg-primary-red"
+            ></span>
+          </span>
+          <i class="fi fi-rr-bell"></i>
+        </a>
+
+        <div class="flex items-center space-x-2 space-x-reverse">
+          <div class="p-1 border border-primary-red/50 rounded-full">
+            <img src="./assets/images/u1.jpg" alt="" class="avatar" />
+          </div>
+          <div>
+            <h6 class="mb-0 text-sm">مریم مرادی</h6>
+            <span class="text-xs">کاربر طلایی</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!--header end-->
+    <!--left sidebar start-->
+    <div
+      id="sidebar-left"
+      class="fixed top-0 left-0 h-screen grid w-20 bg-white gap-10 justify-center content-center shadow-md"
+    >
+      <div
+        class="absolute right-0 inset-y-0 flex justify-center items-center bg-transparent cursor-pointer -z-30"
+      >
+        <span class="bg-white rounded-r-full translate-x-7 p-3">
+          <i class="fi fi-rr-angle-double-right text-xs"> </i>
+        </span>
+      </div>
+      <button class="btn btn-primary w-8/12 mx-auto aspect-square">
+        <i class="fi fi-rr-plus"></i>
+      </button>
+      <div>
+        <img class="avatar" src="./assets/images/u1.jpg" />
+      </div>
+      <div>
+        <img class="avatar" src="./assets/images/u2.jpg" />
+      </div>
+      <div>
+        <img class="avatar" src="./assets/images/u3.jpg" />
+      </div>
+      <div>
+        <img class="avatar" src="./assets/images/u4.jpg" />
+      </div>
+      <div>
+        <img class="avatar" src="./assets/images/u5.jpg" />
+      </div>
+      <div>
+        <img class="avatar" src="./assets/images/u6.jpg" />
+      </div>
+      <div>
+        <img class="avatar" src="./assets/images/u7.jpg" />
+      </div>
+    </div>
+    <!--left sidebar end-->
+  </body>
+</html>

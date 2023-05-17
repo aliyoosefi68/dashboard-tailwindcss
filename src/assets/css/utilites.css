@@ -1,0 +1,5 @@
+@layer utilities {
+  .px-content {
+    @apply pr-72 pl-20;
+  }
+}

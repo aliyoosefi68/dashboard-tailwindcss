@@ -1,0 +1,17 @@
+{
+  "name": "dashboard-tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npx tailwindcss --postcss -i ./src/assets/css/main.css -o ./dist/style.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss-import": "^15.1.0",
+    "tailwindcss": "^3.3.2"
+  }
+}
