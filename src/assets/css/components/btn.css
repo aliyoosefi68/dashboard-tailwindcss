@@ -8,4 +8,11 @@
   .btn-primary {
     @apply bg-primary-red text-white rounded-full;
   }
+  .btn-blure {
+    @apply bg-white/30 backdrop-blur-lg;
+  }
+
+  .btn-lg {
+    @apply rounded-xl text-lg px-8;
+  }
 }

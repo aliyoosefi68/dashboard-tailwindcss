@@ -1,0 +1,11 @@
+@layer components {
+  .bg-y-shadow-md {
+    @apply bg-gradient-to-b from-black/40 via-black/0 to-black/40;
+  }
+  .bg-y-shadow-md {
+    @apply bg-gradient-to-b from-black/60 via-black/0 to-black/60;
+  }
+  .bg-y-shadow-lg {
+    @apply bg-gradient-to-b from-black/80 via-black/0 to-black/80;
+  }
+}
