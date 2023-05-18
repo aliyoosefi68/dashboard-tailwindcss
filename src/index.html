@@ -15,83 +15,87 @@
   </head>
   <body>
     <!--right sidebar start-->
-    <div
-      id="sidbar-right"
-      class="fixed grid content-between top-0 right-0 h-screen w-full max-w-xxs p-8 border-l-2 border-primary-light"
-    >
-      <div>
-        <div>
-          <img src="./assets/images/logo.png" />
-        </div>
-        <nav class="pt-6 grid gap-8">
-          <div>
-            <h6 class="text-slate-400 mb-6 text-sm">منو</h6>
-            <ul class="grid gap-6">
-              <li class="flex active-link">
-                <a
-                  href="#"
-                  class="flex items-center space-x-3 space-x-reverse py-1.5"
-                >
-                  <i class="fi fi-rr-navigation"></i>
-                  <span>جستوجو</span>
-                </a>
-              </li>
-              <li class="flex">
-                <a
-                  href="#"
-                  class="flex items-center space-x-3 space-x-reverse py-1.5"
-                >
-                  <i class="fi fi-rr-heart"></i>
-                  <span>لیست تماشا</span>
-                </a>
-              </li>
-              <li class="flex">
-                <a
-                  href="#"
-                  class="flex items-center space-x-3 space-x-reverse py-1.5"
-                >
-                  <i class="fi fi-rr-calendar"></i>
-                  <span>به زودی</span>
-                </a>
-              </li>
-            </ul>
-          </div>
-          <!--second menu section-->
-          <div>
-            <h6 class="text-slate-400 mb-6 text-sm">عمومی</h6>
-            <ul class="grid gap-6">
-              <li class="flex">
-                <a
-                  href="#"
-                  class="flex items-center space-x-3 space-x-reverse py-1.5"
-                >
-                  <i class="fi fi-rr-settings"></i>
-                  <span>تنظیمات</span>
-                </a>
-              </li>
-              <li class="flex">
-                <a
-                  href="#"
-                  class="flex items-center space-x-3 space-x-reverse py-1.5"
-                >
-                  <i class="fi fi-rr-exit"></i>
-                  <span>خروج</span>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </div>
+    <div id="sidbar-right">
+      <button class="absolute top-16 right-8 xlg:hidden peer">
+        <i class="fi fi-rr-symbol text-3xl"></i>
+      </button>
       <div
-        class="grid gap-4 text-center bg-primary-gray/25 p-6 w-full rounded-xl"
+        class="fixed grid content-between top-0 right-0 h-screen w-full max-w-xxs xlg:max-w-lxxs xl:max-w-xxs p-8 border-l-2 border-primary-light translate-x-full xlg:translate-x-0 peer-focus:translate-x-0 transition-all duration-200 bg-white z-50 xlg:bg-transparent hover:translate-x-0"
       >
         <div>
-          <h6 class="text-base mb-1.5">جشنواره فروش</h6>
-          <p class="text-xs text-primary-gray">
-            جوایز نقدی و غیر نقدی برای اولین واریزی!
-          </p>
+          <div>
+            <h1>تماشا</h1>
+          </div>
+          <nav class="pt-6 grid gap-8">
+            <div>
+              <h6 class="text-slate-400 mb-6 text-sm">منو</h6>
+              <ul class="grid gap-6">
+                <li class="flex active-link">
+                  <a
+                    href="#"
+                    class="flex items-center space-x-3 space-x-reverse py-1.5"
+                  >
+                    <i class="fi fi-rr-navigation"></i>
+                    <span>جستوجو</span>
+                  </a>
+                </li>
+                <li class="flex">
+                  <a
+                    href="#"
+                    class="flex items-center space-x-3 space-x-reverse py-1.5"
+                  >
+                    <i class="fi fi-rr-heart"></i>
+                    <span>لیست تماشا</span>
+                  </a>
+                </li>
+                <li class="flex">
+                  <a
+                    href="#"
+                    class="flex items-center space-x-3 space-x-reverse py-1.5"
+                  >
+                    <i class="fi fi-rr-calendar"></i>
+                    <span>به زودی</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <!--second menu section-->
+            <div>
+              <h6 class="text-slate-400 mb-6 text-sm">عمومی</h6>
+              <ul class="grid gap-6">
+                <li class="flex">
+                  <a
+                    href="#"
+                    class="flex items-center space-x-3 space-x-reverse py-1.5"
+                  >
+                    <i class="fi fi-rr-settings"></i>
+                    <span>تنظیمات</span>
+                  </a>
+                </li>
+                <li class="flex">
+                  <a
+                    href="#"
+                    class="flex items-center space-x-3 space-x-reverse py-1.5"
+                  >
+                    <i class="fi fi-rr-exit"></i>
+                    <span>خروج</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
         </div>
-        <button class="btn btn-gray">ورود به چالش</button>
+        <div
+          class="grid gap-4 text-center bg-primary-gray/25 p-6 w-full rounded-xl"
+        >
+          <div>
+            <h6 class="text-base mb-1.5">جشنواره فروش</h6>
+            <p class="text-xs text-primary-gray">
+              جوایز نقدی و غیر نقدی برای اولین واریزی!
+            </p>
+          </div>
+          <button class="btn btn-gray">ورود به چالش</button>
+        </div>
       </div>
     </div>
     <!--right sidebar end-->
@@ -101,7 +105,7 @@
       class="flex items-center justify-between m-8 py-4 px-content"
     >
       <div class="flex grow">
-        <div class="flex items-center gap-x-4">
+        <div class="flex items-center space-x-4 pr-14 xlg:pr-0">
           <a href="#" class="">
             <i class="fi fi-rr-angle-right text-sm"></i>
           </a>
@@ -157,12 +161,14 @@
     <!--left sidebar start-->
     <div
       id="sidebar-left"
-      class="fixed top-0 left-0 h-screen grid w-20 bg-white gap-10 justify-center content-center shadow-md"
+      class="-translate-x-full xl:translate-x-0 fixed top-0 left-0 h-screen grid w-20 bg-white gap-10 justify-center content-center shadow-md hover:translate-x-0 transition-transform duration-200 z-50"
     >
       <div
         class="absolute right-0 inset-y-0 flex justify-center items-center bg-transparent cursor-pointer -z-30"
       >
-        <span class="bg-white rounded-r-full translate-x-7 p-3">
+        <span
+          class="bg-white rounded-r-full xl:translate-x-6 translate-x-8 p-3"
+        >
           <i class="fi fi-rr-angle-double-right text-xs"> </i>
         </span>
       </div>

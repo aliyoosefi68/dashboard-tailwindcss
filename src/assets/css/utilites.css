@@ -1,5 +1,5 @@
 @layer utilities {
   .px-content {
-    @apply pr-72 pl-20;
+    @apply xl:pr-72 xlg:pr-60  xl:pl-20;
   }
 }
