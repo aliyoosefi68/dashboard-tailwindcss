@@ -114,7 +114,7 @@
           </a>
         </div>
         <div
-          class="flex items-center w-full max-w-sm border border-primary-gray rounded-full px-4 ms-4"
+          class="flex items-center w-10 h-10 overflow-hidden sm:w-full max-w-sm border border-primary-gray rounded-full px-3 ms-4"
         >
           <i class="fi fi-rr-search text-primary-gray text-base"></i>
           <input type="text" placeholder="جستوجو ..." class="px-4 py-3 grow" />
@@ -198,7 +198,10 @@
       </div>
     </div>
     <!--left sidebar end-->
-    <main id="content" class="px-content w-full grid">
+    <main
+      id="content"
+      class="xlg:px-content w-full grid container xlg:max-w-none"
+    >
       <div class="p-8 grid gap-14">
         <!--start slider-->
         <section id="slider" class="w-full h-[30rem] overflow-hidden relative">
@@ -207,13 +210,15 @@
             class="w-full h-full rounded-3xl object-cover"
           />
           <div
-            class="absolute grid content-between p-10 inset-0 rounded-3xl bg-y-shadow-md"
+            class="absolute grid content-between p-6 inset-0 rounded-3xl bg-y-shadow-md"
           >
             <div
-              class="flex space-x-4 space-x-reverse items-center text-slate-200"
+              class="grid gap-4 justify-center sm:flex sm:gap-0 sm:justify-start sm:space-x-4 space-x-reverse items-center text-slate-200"
             >
-              <p class="py-2 px-3 rounded-full bg-slate-900/70">10px / فصل</p>
-              <ul class="flex -space-x-2 space-x-reverse">
+              <p class="py-2 px-3 rounded-full bg-slate-900/70 mx-auto sm:mx-0">
+                10px / فصل
+              </p>
+              <ul class="flex -space-x-2 space-x-reverse justify-center">
                 <li>
                   <img
                     src="./assets//images/u1.jpg"
@@ -236,10 +241,14 @@
                   />
                 </li>
               </ul>
-              <p>+5نفر از دوستان شما در حال تماشا هستند</p>
+              <p class="truncate">+5نفر از دوستان شما در حال تماشا هستند</p>
             </div>
-            <div class="flex items-end justify-between">
-              <div class="text-slate-100 grid gap-6">
+            <div
+              class="grid gap-10 justify-center md:flex items-end md:justify-between"
+            >
+              <div
+                class="text-slate-100 grid gap-6 justify-center text-center md:text-right"
+              >
                 <div>
                   <h1>فیلم بازی تاج و تخت</h1>
                   <p class="text-slate-200">
@@ -247,7 +256,9 @@
                     ...
                   </p>
                 </div>
-                <div class="flex space-x-4 space-x-reverse">
+                <div
+                  class="flex space-x-4 space-x-reverse justify-center md:justify-start"
+                >
                   <button
                     class="btn btn-primary shadow-md shadow-primary-red/50 btn-lg"
                   >
@@ -258,21 +269,23 @@
                   </button>
                 </div>
               </div>
-              <div class="flex space-x-4 space-x-reverse items-center">
+              <div
+                class="flex space-x-4 space-x-reverse items-center justify-center"
+              >
                 <img
                   src="./assets/images/sm1.jpg"
                   alt=""
-                  class="w-32 rounded-xl shadow-md aspect-video cursor-pointer"
+                  class="w-24 sm:w-32 rounded-xl shadow-md aspect-video cursor-pointer"
                 />
                 <img
                   src="./assets/images/sm2.webp"
                   alt=""
-                  class="w-32 rounded-xl shadow-md aspect-video cursor-pointer"
+                  class="w-24 sm:w-32 rounded-xl shadow-md aspect-video cursor-pointer"
                 />
                 <img
                   src="./assets/images/sm3.jpg"
                   alt=""
-                  class="w-32 rounded-xl shadow-md aspect-video scale-110 shadow-white/60 cursor-pointer"
+                  class="w-24 sm:w-32 rounded-xl shadow-md aspect-video scale-110 shadow-white/60 cursor-pointer"
                 />
               </div>
             </div>
